@@ -1,0 +1,87 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.navbar-container {
+    background-color:#4B3619;
+    widht: 100%;
+    height: 15vh;
+}
+
+.navbar-ul {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items:center;
+}
+
+.navbar-li {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color:white;
+    font-size: 30px;
+}
+
+.navbar-li:hover {
+    background-color:rgba(0, 0, 0, 0.529);
+    transition: .1s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color:white;
+    text-decoration: none;
+    font-weight: 800px;
+}
+
+.container-content {
+    background-image:url(kuatakuntansi.jpg);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 80vh;
+}
+
+.img-content {
+    widht: 75%;
+    height: 75%;
+}
+
+.container-footer {
+    height: 10%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 30px;
+    color: #4B3619;
+}
+
+.tentang-kami{
+    background-color:white;
+    font-size: 19px;
+    color:black
+    height: 300px;
+    height: 80vh;
+}
+
+.program-kami{
+    background-color:white;
+    font-size: 19px;
+    color:black
+    height: 600px;
+    height: 80vh;
+}
+
+
+ 
